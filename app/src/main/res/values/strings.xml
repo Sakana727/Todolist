@@ -6,8 +6,9 @@
     <string name="clear_tasks">Clear</string>
     <string name="hint_add_task">Enter a new task here</string>
     <string name="hint_remove_task">Enter the index of the task to be removed</string>
-    <string name="toast_wrong_index">Wrong index number</string>
+    <string name="toast_invalid_index">Invalid number</string>
     <string name="toast_no_index">Please enter an index number</string>
+    <string name="edit">Edit</string>
     <string-array name="task_options">
         <item>Add a new task</item>
         <item>Remove a task</item>
