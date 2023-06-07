@@ -6,6 +6,11 @@
     android:padding="16dp"
     tools:context=".MainActivity">
 
+    <Spinner
+        android:id="@+id/spinnerTaskOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <EditText
         android:id="@+id/editTextTask"
         android:layout_width="match_parent"
@@ -19,14 +24,21 @@
 
         <Button
             android:id="@+id/buttonAddTask"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/add_task" />
 
         <Button
+            android:id="@+id/buttonDeleteTask"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/delete_task" />
+
+        <Button
             android:id="@+id/buttonClearTasks"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="@string/clear_tasks" />
